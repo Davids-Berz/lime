@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "5580f7aa668057e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c33f8fee94f1d6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65c0514e0541a31d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "guia/0. Conceptos de Programacion.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e07147fb3270861d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "guia/7. Arrays o Arreglos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a40d0a9a4c359a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "guia/6. Metodos en Java.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4d1a227470c18d12",
+    "type": "split",
+    "children": [
+      {
+        "id": "22f860c3e48213d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6e02c529215623b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f279c5a995c15c38",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9eaa1d503cb37e35",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "513ac2ce8bf4d0b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "4cbcd9aa9d3cabd3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "515c8c055d449285",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "guia/7. Arrays o Arreglos.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "91722c49fb45a324",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "guia/7. Arrays o Arreglos.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "98ec4e76b7c8b630",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d60b92bdb456c01e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "guia/7. Arrays o Arreglos.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e07147fb3270861d",
+  "lastOpenFiles": [
+    "guia/0. Conceptos de Programacion.md",
+    "guia/0 Java desde cero.md",
+    "guia/1. Tipo de Datos.md",
+    "guia/6. Metodos en Java.md",
+    "guia/2. Variables.md",
+    "guia/5. Estructuras de control de flujo.md",
+    "guia/4. String.md",
+    "guia/3. Operadores.md"
+  ]
+}
