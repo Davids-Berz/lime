@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Alumno alumno = new Alumno();
+        Persona alumno = new Alumno();
         alumno.setNombre("David");
         System.out.println("alumno = " + alumno);
         System.out.println();
@@ -14,8 +14,8 @@ public class Main {
         System.out.println("profesor = " + profesor);
         System.out.println();
 
-        AlumnoExterno alumnoExterno = new AlumnoExterno();
-        alumnoExterno.setIdiomas(8.9);
+        Persona alumnoExterno = new AlumnoExterno();
+        ((AlumnoExterno)alumnoExterno).setIdiomas(8.9);
         System.out.println("alumnoExterno = " + alumnoExterno);
 
         System.out.println();
