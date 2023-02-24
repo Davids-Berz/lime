@@ -1,16 +1,24 @@
 package com.lime.anotaciones.entity;
 
 import com.lime.anotaciones.JsonAttribute;
+import com.lime.anotaciones.procesador.Init;
 
 import java.util.function.Supplier;
 
 public class Producto {
 
-    @JsonAttribute(name = "nombre_producto", capitalizar = true)
+    @JsonAttribute(name = "nombre_producto")
     private String nombre;
 
     @JsonAttribute(name = "")
     private Long precio;
+
+
+    @Init
+    private void init() {
+        this.nombre = String.valueOf(nombre.charAt(0)).toUpperCase()
+                .concat(nombre.substring(1).toLowerCase());
+    }
 
     public String getNombre() {
         return nombre;

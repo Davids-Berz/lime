@@ -3,15 +3,37 @@ package com.lime.anotaciones.procesador;
 import com.lime.anotaciones.JsonAttribute;
 
 import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.Arrays;
 
 public class JsonUtils {
+
+    public static void inicializar(Object o) {
+        if (o == null) {
+            throw new JsonUtilsException("El objeto serializable es null");
+        }
+
+        Method[] metodos = o.getClass().getDeclaredMethods();
+
+        Arrays.stream(metodos).filter(m -> m.isAnnotationPresent(Init.class))
+                .forEach(m -> {
+                    m.setAccessible(true);
+                    try {
+                        m.invoke(o);
+                    } catch (IllegalAccessException | InvocationTargetException e) {
+                        throw new JsonUtilsException("Error al Serializar " + e.getCause());
+                    }
+                });
+
+    }
 
     public static String convertJson(Object o) {
 
         if (o == null) {
             throw new JsonUtilsException("El objeto serializable es null");
         }
+        inicializar(o);
 
         Field[] atributos = o.getClass().getDeclaredFields();
 
