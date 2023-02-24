@@ -8,19 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ed39c5ec8d2601eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "guia/24. Programacion Funcional - Funcions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2ac5531d04be96b",
+            "id": "ce81ce7cb001854a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -159,12 +147,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ed39c5ec8d2601eb",
+  "active": "ce81ce7cb001854a",
   "lastOpenFiles": [
-    "guia/25. Hilos.md",
-    "guia/0.1 Conceptos de Programacion.md",
-    "guia/24. Programacion Funcional - Funcions.md",
     "guia/23. Expresiones Lambdas.md",
+    "guia/20. Anotaciones.md",
+    "guia/0.1 Conceptos de Programacion.md",
+    "guia/25. Hilos.md",
+    "guia/24. Programacion Funcional - Funcions.md",
     "guia/2. Variables.md",
     "guia/1. Tipo de Datos.md",
     "guia/0 Java desde cero.md",
