@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guia/24. Hilos.md",
+                "file": "guia/22. Colecciones.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "guia/24. Hilos.md",
+                "file": "guia/22. Colecciones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "guia/24. Hilos.md"
+                "file": "guia/22. Colecciones.md"
               }
             }
           }
@@ -160,11 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb4775c5ba185af9",
+  "active": "ed39c5ec8d2601eb",
   "lastOpenFiles": [
+    "guia/24. Hilos.md",
+    "guia/17. Excepciones.md",
     "guia/0 Java desde cero.md",
     "guia/22. Colecciones.md",
-    "guia/24. Hilos.md",
     "guia/0.1 Conceptos de Programacion.md",
     "guia/14. Interfaces.md",
     "guia/15. Genericos.md",
@@ -172,7 +172,6 @@
     "guia/1. Tipo de Datos.md",
     "guia/19. enum.md",
     "guia/18. Paquetes en Java.md",
-    "guia/17. Excepciones.md",
     "guia/10. Herencia.md",
     "guia/9. Constructor.md",
     "guia/13. Clases Absrtactas.md",

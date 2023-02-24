@@ -8,31 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a8ccd9728a15c5d7",
+            "id": "ed39c5ec8d2601eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guia/14. Interfaces.md",
+                "file": "guia/22. Colecciones.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9127f2505d2e3332",
+            "id": "fb4775c5ba185af9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guia/15. Genericos.md",
+                "file": "guia/24. Hilos.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guia/15. Genericos.md",
+                "file": "guia/22. Colecciones.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "guia/15. Genericos.md",
+                "file": "guia/22. Colecciones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "guia/15. Genericos.md"
+                "file": "guia/22. Colecciones.md"
               }
             }
           }
@@ -160,17 +159,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9127f2505d2e3332",
+  "active": "ed39c5ec8d2601eb",
   "lastOpenFiles": [
-    "guia/14. Interfaces.md",
+    "guia/24. Hilos.md",
+    "guia/17. Excepciones.md",
+    "guia/0 Java desde cero.md",
+    "guia/22. Colecciones.md",
     "guia/0.1 Conceptos de Programacion.md",
+    "guia/14. Interfaces.md",
+    "guia/15. Genericos.md",
+    "guia/7. Arrays o Arreglos.md",
+    "guia/1. Tipo de Datos.md",
+    "guia/19. enum.md",
+    "guia/18. Paquetes en Java.md",
     "guia/10. Herencia.md",
     "guia/9. Constructor.md",
     "guia/13. Clases Absrtactas.md",
     "guia/11. Polimorfismo.md",
     "guia/12. Encapsulamiento.md",
     "guia/6. Metodos en Java.md",
-    "guia/8. Clases y Objetos.md",
-    "guia/0 Java desde cero.md"
+    "guia/8. Clases y Objetos.md"
   ]
 }
