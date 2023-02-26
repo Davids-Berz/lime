@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+
         Persona alumno = new Alumno();
         alumno.setNombre("David");
         System.out.println("alumno = " + alumno);
