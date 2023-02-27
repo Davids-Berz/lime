@@ -14,19 +14,19 @@
               "type": "markdown",
               "state": {
                 "file": "guia/0.1 Conceptos de Programacion.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "64efc55dd5c17962",
+            "id": "6639d510dfba2416",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guia/26. Recursividad.md",
-                "mode": "source",
+                "file": "guia/30. Patrones de Diseño.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guia/26. Recursividad.md",
+                "file": "guia/30. Patrones de Diseño.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "guia/26. Recursividad.md",
+                "file": "guia/30. Patrones de Diseño.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "guia/26. Recursividad.md"
+                "file": "guia/30. Patrones de Diseño.md"
               }
             }
           }
@@ -160,14 +160,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64efc55dd5c17962",
+  "active": "6639d510dfba2416",
   "lastOpenFiles": [
+    "guia/0.1 Conceptos de Programacion.md",
+    "guia/30. Patrones de Diseño.md",
+    "guia/26. Recursividad.md",
+    "static/images/recursividad.png.md",
+    "static/images",
+    "static",
     "guia/12. Encapsulamiento.md",
     "guia/18. Paquetes en Java.md",
     "guia/2. Variables.md",
     "guia/1. Tipo de Datos.md",
-    "guia/0.1 Conceptos de Programacion.md",
-    "guia/26. Recursividad.md",
     "guia/24. Programacion Funcional - Funcions.md",
     "guia/23. Expresiones Lambdas.md",
     "guia/20. Anotaciones.md",
