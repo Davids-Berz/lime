@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guia/26. Recursividad.md",
+                "file": "guia/0.1 Conceptos de Programacion.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6639d510dfba2416",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "guia/30. Patrones de Diseño.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guia/26. Recursividad.md",
+                "file": "guia/30. Patrones de Diseño.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "guia/26. Recursividad.md",
+                "file": "guia/30. Patrones de Diseño.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "guia/26. Recursividad.md"
+                "file": "guia/30. Patrones de Diseño.md"
               }
             }
           }
@@ -147,11 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d57a2a4ec2259064",
+  "active": "6639d510dfba2416",
   "lastOpenFiles": [
     "guia/0.1 Conceptos de Programacion.md",
-    "static/images/recursividad.png.md",
+    "guia/30. Patrones de Diseño.md",
     "guia/26. Recursividad.md",
+    "static/images/recursividad.png.md",
     "static/images",
     "static",
     "guia/12. Encapsulamiento.md",
