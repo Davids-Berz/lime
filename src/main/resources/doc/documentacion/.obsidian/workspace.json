@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ec55f8846099ce7c",
+        "id": "c87c7180cce04a6c",
         "type": "tabs",
         "children": [
           {
-            "id": "0e8f407f95a20dd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "guia/4. String.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dfebd05ff03bf757",
+            "id": "076ed312ebc625d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,10 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dfebd05ff03bf757",
+  "active": "076ed312ebc625d8",
   "lastOpenFiles": [
-    "guia/4. String.md",
     "guia/31. Base de Datos con JDBC.md",
+    "guia/4. String.md",
     "guia/9. Constructor.md",
     "guia/17. Excepciones.md",
     "guia/22. Colecciones.md",
