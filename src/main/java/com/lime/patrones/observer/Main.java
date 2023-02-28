@@ -25,6 +25,17 @@ public class Main {
 
         google.modificaPrecio(2000);
 
+        // ejemplo usuario
+        System.out.println("\n");
+        Usuario usuario = new Usuario();
+
+        usuario.addObserver(o -> System.out.println("Enviando email a usuario"));
+        usuario.addObserver(o -> System.out.println("Enviando email a Administrador"));
+        usuario.addObserver(o -> System.out.println("Guardando info de usuario"));
+        usuario.crearUsuario("David");
+
+
+
 
     }
 }

@@ -4,29 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "1f56f078e85b240f",
+        "id": "ec55f8846099ce7c",
         "type": "tabs",
         "children": [
           {
-            "id": "d57a2a4ec2259064",
+            "id": "0e8f407f95a20dd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guia/0.1 Conceptos de Programacion.md",
-                "mode": "preview",
+                "file": "guia/4. String.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6639d510dfba2416",
+            "id": "dfebd05ff03bf757",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guia/30. Patrones de Diseño.md",
-                "mode": "preview",
+                "file": "guia/31. Base de Datos con JDBC.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guia/30. Patrones de Diseño.md",
+                "file": "guia/31. Base de Datos con JDBC.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "guia/30. Patrones de Diseño.md",
+                "file": "guia/31. Base de Datos con JDBC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "guia/30. Patrones de Diseño.md"
+                "file": "guia/31. Base de Datos con JDBC.md"
               }
             }
           }
@@ -160,11 +160,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6639d510dfba2416",
+  "active": "dfebd05ff03bf757",
   "lastOpenFiles": [
-    "guia/0.1 Conceptos de Programacion.md",
-    "guia/30. Patrones de Diseño.md",
+    "guia/4. String.md",
+    "guia/31. Base de Datos con JDBC.md",
+    "guia/9. Constructor.md",
+    "guia/17. Excepciones.md",
+    "guia/22. Colecciones.md",
+    "guia/23. Expresiones Regulares.md",
+    "guia/24. Programacion Funcional - Funcions.md",
+    "guia/25. Hilos.md",
     "guia/26. Recursividad.md",
+    "guia/27. Manejo de Archivos.md",
+    "guia/30. Patrones de Diseño.md",
+    "guia/0.1 Conceptos de Programacion.md",
+    "guia/19. enum.md",
+    "guia/30. patrones.canvas",
+    "guia/Untitled",
     "static/images/recursividad.png.md",
     "static/images",
     "static",
@@ -172,22 +184,13 @@
     "guia/18. Paquetes en Java.md",
     "guia/2. Variables.md",
     "guia/1. Tipo de Datos.md",
-    "guia/24. Programacion Funcional - Funcions.md",
-    "guia/23. Expresiones Lambdas.md",
     "guia/20. Anotaciones.md",
-    "guia/25. Hilos.md",
     "guia/0 Java desde cero.md",
     "guia/14. Interfaces.md",
-    "guia/22. Colecciones.md",
-    "guia/17. Excepciones.md",
     "guia/15. Genericos.md",
     "guia/7. Arrays o Arreglos.md",
-    "guia/19. enum.md",
     "guia/10. Herencia.md",
-    "guia/9. Constructor.md",
     "guia/13. Clases Absrtactas.md",
-    "guia/11. Polimorfismo.md",
-    "guia/6. Metodos en Java.md",
-    "guia/8. Clases y Objetos.md"
+    "guia/11. Polimorfismo.md"
   ]
 }
