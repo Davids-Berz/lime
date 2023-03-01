@@ -14,7 +14,7 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
                                         "inner join categorias c ON (p.categoria_id=c.id)";
 
     private Connection getConn() throws SQLException {
-        return ConexionBaseDatos.getInstance();
+        return ConexionBaseDatos.getConnection();
     }
 
     @Override

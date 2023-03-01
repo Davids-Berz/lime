@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         try (
-                Connection con = ConexionBaseDatos.getInstance();
+                Connection con = ConexionBaseDatos.getConnection();
                 Statement stmt = con.createStatement();
                 ResultSet resultSet = stmt.executeQuery("Select * from productos");
         ) {

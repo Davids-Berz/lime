@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a74b74176b4cbb07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "guia/33. Pool de Conexiones.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guia/0.1 Conceptos de Programacion.md",
+                "file": "guia/33. Pool de Conexiones.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "guia/0.1 Conceptos de Programacion.md",
+                "file": "guia/33. Pool de Conexiones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "guia/0.1 Conceptos de Programacion.md"
+                "file": "guia/33. Pool de Conexiones.md"
               }
             }
           }
@@ -147,10 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5cb93d768c86af4a",
+  "active": "a74b74176b4cbb07",
   "lastOpenFiles": [
-    "guia/31. Maven.md",
     "guia/0.1 Conceptos de Programacion.md",
+    "guia/33. Pool de Conexiones.md",
+    "guia/31. Maven.md",
     "guia/32. Base de Datos con JDBC.md",
     "guia/4. String.md",
     "guia/9. Constructor.md",
@@ -177,7 +191,6 @@
     "guia/14. Interfaces.md",
     "guia/15. Genericos.md",
     "guia/7. Arrays o Arreglos.md",
-    "guia/10. Herencia.md",
-    "guia/13. Clases Absrtactas.md"
+    "guia/10. Herencia.md"
   ]
 }

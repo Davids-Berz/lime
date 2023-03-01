@@ -13,7 +13,7 @@ public class EjemploRepository {
 
     public static void main(String[] args) {
 
-        try (Connection con = ConexionBaseDatos.getInstance()) {
+        try (Connection con = ConexionBaseDatos.getConnection()) {
             Repositorio<Producto> repositorio = new ProductoRepositorioImpl();
             System.out.println("===========Listar============");
             repositorio.listar().forEach(System.out::println);
