@@ -1,20 +1,21 @@
-package com.lime.jdbc.repositorio;
+package com.lime.jdbc.pool.repositorio;
 
-import com.lime.jdbc.Utils.ConexionBaseDatos;
 import com.lime.jdbc.entity.Categoria;
 import com.lime.jdbc.entity.Producto;
+import com.lime.jdbc.pool.PoolConexionBaseDatos;
+import com.lime.jdbc.repositorio.Repositorio;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProductoRepositorioImpl implements Repositorio<Producto> {
+public class PoolProductoRepositorioImpl implements Repositorio<Producto> {
 
     private static String sqlListar = "Select p.*, c.nombre as categoria from productos p " +
                                         "inner join categorias c ON (p.categoria_id=c.id)";
 
     private Connection getConn() throws SQLException {
-        return ConexionBaseDatos.getInstance();
+        return PoolConexionBaseDatos.getConnection();
     }
 
     @Override
