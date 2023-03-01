@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c87c7180cce04a6c",
+        "id": "03c65cdfc2239850",
         "type": "tabs",
         "children": [
           {
-            "id": "076ed312ebc625d8",
+            "id": "5cb93d768c86af4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guia/31. Base de Datos con JDBC.md",
+                "file": "guia/0.1 Conceptos de Programacion.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guia/31. Base de Datos con JDBC.md",
+                "file": "guia/0.1 Conceptos de Programacion.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "guia/31. Base de Datos con JDBC.md",
+                "file": "guia/0.1 Conceptos de Programacion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "guia/31. Base de Datos con JDBC.md"
+                "file": "guia/0.1 Conceptos de Programacion.md"
               }
             }
           }
@@ -147,9 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "076ed312ebc625d8",
+  "active": "5cb93d768c86af4a",
   "lastOpenFiles": [
-    "guia/31. Base de Datos con JDBC.md",
+    "guia/31. Maven.md",
+    "guia/0.1 Conceptos de Programacion.md",
+    "guia/32. Base de Datos con JDBC.md",
     "guia/4. String.md",
     "guia/9. Constructor.md",
     "guia/17. Excepciones.md",
@@ -160,7 +162,6 @@
     "guia/26. Recursividad.md",
     "guia/27. Manejo de Archivos.md",
     "guia/30. Patrones de Diseño.md",
-    "guia/0.1 Conceptos de Programacion.md",
     "guia/19. enum.md",
     "guia/30. patrones.canvas",
     "guia/Untitled",
@@ -177,7 +178,6 @@
     "guia/15. Genericos.md",
     "guia/7. Arrays o Arreglos.md",
     "guia/10. Herencia.md",
-    "guia/13. Clases Absrtactas.md",
-    "guia/11. Polimorfismo.md"
+    "guia/13. Clases Absrtactas.md"
   ]
 }
