@@ -13,25 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guia/34. JDBC Transacciones.md",
+                "file": "guia/0 Java desde cero.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "421849eba009f947",
+            "id": "70dfb2213fe98d47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guia/34. JDBC Transacciones.md",
+                "file": "guia/35. Junit.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guia/34. JDBC Transacciones.md",
+                "file": "guia/35. Junit.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "guia/34. JDBC Transacciones.md",
+                "file": "guia/35. Junit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "guia/34. JDBC Transacciones.md"
+                "file": "guia/35. Junit.md"
               }
             }
           }
@@ -159,10 +160,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5cb93d768c86af4a",
+  "active": "70dfb2213fe98d47",
   "lastOpenFiles": [
-    "guia/0.1 Conceptos de Programacion.md",
     "guia/34. JDBC Transacciones.md",
+    "guia/0 Java desde cero.md",
+    "guia/1. Tipo de Datos.md",
+    "guia/35. Junit.md",
+    "guia/0.1 Conceptos de Programacion.md",
     "guia/33. Pool de Conexiones.md",
     "guia/31. Maven.md",
     "guia/32. Base de Datos con JDBC.md",
@@ -185,11 +189,8 @@
     "guia/12. Encapsulamiento.md",
     "guia/18. Paquetes en Java.md",
     "guia/2. Variables.md",
-    "guia/1. Tipo de Datos.md",
     "guia/20. Anotaciones.md",
-    "guia/0 Java desde cero.md",
     "guia/14. Interfaces.md",
-    "guia/15. Genericos.md",
-    "guia/7. Arrays o Arreglos.md"
+    "guia/15. Genericos.md"
   ]
 }
