@@ -3,7 +3,10 @@ package com.lime.junit5.entity;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.condition.*;
 
+import java.time.Duration;
 import java.util.Properties;
+import java.util.Timer;
+import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -86,6 +89,20 @@ class UsuarioTest {
     void devTest() {
         Assumptions.assumeTrue(isDev);
         System.out.println("Entorno de desarrollo");
+    }
+
+    @Test
+    @Timeout(5)
+    @Tag("timeout")
+    void tiempoEsperaTest() throws InterruptedException {
+        TimeUnit.SECONDS.sleep(6);
+    }
+
+    @Test
+    void tiempoEsperaAssertTest() {
+        assertTimeout(Duration.ofSeconds(2),()-> {
+            TimeUnit.SECONDS.sleep(3);
+        });
     }
 
 }
