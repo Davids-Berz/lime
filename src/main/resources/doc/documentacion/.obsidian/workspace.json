@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guia/0 Java desde cero.md",
+                "file": "guia/36. Mockito.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guia/0 Java desde cero.md",
+                "file": "guia/36. Mockito.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "guia/0 Java desde cero.md",
+                "file": "guia/36. Mockito.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "guia/0 Java desde cero.md"
+                "file": "guia/36. Mockito.md"
               }
             }
           },
@@ -159,17 +159,19 @@
   },
   "active": "5cb93d768c86af4a",
   "lastOpenFiles": [
+    "guia/1. Tipo de Datos.md",
+    "guia/2. Variables.md",
+    "guia/3. Operadores.md",
+    "guia/36. Mockito.md",
+    "guia/0 Java desde cero.md",
     "guia/diagramas.md",
     "guia/Untitled.canvas",
     "guia/35. Junit.md",
-    "guia/0 Java desde cero.md",
     "guia/4. String.md",
-    "guia/1. Tipo de Datos.md",
     "Day Planners/Day Planner-20230302.md",
     "Day Planners",
     "Untitled.canvas",
     "guia/canvas.md",
-    "guia/36. Mockito.md",
     "guia/34. JDBC Transacciones.md",
     "guia/0.1 Conceptos de Programacion.md",
     "guia/33. Pool de Conexiones.md",
@@ -189,7 +191,6 @@
     "guia/Untitled",
     "static/images/recursividad.png.md",
     "static/images",
-    "static",
-    "guia/12. Encapsulamiento.md"
+    "static"
   ]
 }
