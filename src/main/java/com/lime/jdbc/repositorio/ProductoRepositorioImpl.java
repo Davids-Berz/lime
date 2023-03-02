@@ -18,7 +18,7 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
     }
 
     @Override
-    public List<Producto> listar() {
+    public List<Producto> listar() throws SQLException {
         List<Producto> productos = new ArrayList<>();
         try (Statement st = getConn().createStatement();
              ResultSet resul = st.executeQuery(sqlListar)) {
@@ -26,15 +26,13 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
                 Producto producto = getProducto(resul);
                 productos.add(producto);
             }
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
         }
         return productos;
     }
 
 
     @Override
-    public Producto porId(Long id) {
+    public Producto porId(Long id) throws SQLException {
         Producto producto = null;
         try (PreparedStatement ps = getConn()
                 .prepareStatement(sqlListar + " where p.id = ?")) {
@@ -44,14 +42,12 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
                     producto = getProducto(rs);
                 }
             }
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
         return producto;
     }
 
     @Override
-    public void guardar(Producto producto) {
+    public void guardar(Producto producto) throws SQLException {
         String sql;
         if (producto.getId() != null && producto.getId() > 0)
             sql = "update productos set nombre=?, precio=?, categoria=? where id=?";
@@ -66,8 +62,6 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
                 ps.setLong(4, producto.getId());
 
             ps.executeUpdate();
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
     }
 
