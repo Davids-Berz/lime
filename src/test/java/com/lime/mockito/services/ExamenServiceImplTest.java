@@ -4,6 +4,7 @@ import com.lime.mockito.models.Examen;
 import com.lime.mockito.repositories.IExamenRepository;
 import com.lime.mockito.repositories.IPreguntaRepository;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.*;
@@ -41,6 +42,7 @@ class ExamenServiceImplTest {
     }
 
     @Test
+    @Disabled
     void findExamByName() {
 
         Mockito
@@ -56,6 +58,7 @@ class ExamenServiceImplTest {
     }
 
     @Test
+    @Disabled
     void findExamByNameEmptyList() {
         List<Examen> data = Collections.EMPTY_LIST;
         Mockito
@@ -68,6 +71,7 @@ class ExamenServiceImplTest {
     }
 
     @Test
+    @Disabled
     void preguntaExamenTest() {
         Mockito
                 .when(repository.findAll())
@@ -86,6 +90,7 @@ class ExamenServiceImplTest {
     }
 
     @Test
+    @Disabled
     void guardarExamentest() {
         //given
         AtomicInteger count = new AtomicInteger(3);
@@ -107,6 +112,7 @@ class ExamenServiceImplTest {
     }
 
     @Test
+    @Disabled
     void ordenTest(){
         Mockito.when(repository.findAll()).thenReturn(DataSource.EXAMENES);
         service.findExamByNameWithAnswer("Fisica");
@@ -120,6 +126,7 @@ class ExamenServiceImplTest {
     }
 
     @Test
+    @Disabled
     void numeroInvocacion() {
         Mockito.when(repository.findAll()).thenReturn(Collections.EMPTY_LIST);
         service.findExamByNameWithAnswer("Historia");

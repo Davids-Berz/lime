@@ -1,15 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.lime.junit5.entity.UsuarioTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 2, Errors: 1, Skipped: 4, Time elapsed: 8.038 s <<< FAILURE! - in com.lime.junit5.entity.UsuarioTest
-tiempoEsperaAssertTest  Time elapsed: 3.01 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: execution exceeded timeout of 2000 ms by 1005 ms
-	at com.lime.junit5.entity.UsuarioTest.tiempoEsperaAssertTest(UsuarioTest.java:103)
-
-name  Time elapsed: 0.001 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <Davids> but was: <David>
-	at com.lime.junit5.entity.UsuarioTest.name(UsuarioTest.java:29)
-
-tiempoEsperaTest  Time elapsed: 5.012 s  <<< ERROR!
-java.util.concurrent.TimeoutException: tiempoEsperaTest() timed out after 5 seconds
-
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 12, Time elapsed: 0 s - in com.lime.junit5.entity.UsuarioTest

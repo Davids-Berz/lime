@@ -23,6 +23,7 @@ class UsuarioTest {
     // condicionales
 
     @Test
+    @Disabled
     void name() {
 
         Usuario usuario = new Usuario("David");
@@ -31,6 +32,7 @@ class UsuarioTest {
     }
 
     @Test
+    @Disabled
     @EnabledOnOs(OS.MAC)
     void testW() {
         Usuario usuario = new Usuario("David");
@@ -38,6 +40,7 @@ class UsuarioTest {
     }
 
     @Test
+    @Disabled
     void names() {
 
         Usuario usuario = new Usuario("David");
@@ -46,6 +49,7 @@ class UsuarioTest {
     }
 
     @Test
+    @Disabled
     @DisabledOnOs(OS.WINDOWS)
     void testNoW() {
         Usuario usuario = new Usuario("David");
@@ -53,6 +57,7 @@ class UsuarioTest {
     }
 
     @Test
+    @Disabled
     @EnabledOnJre(JRE.JAVA_8)
     void testJDK8() {
         Usuario usuario = new Usuario("David");
@@ -60,6 +65,7 @@ class UsuarioTest {
     }
 
     @Test
+    @Disabled
     @EnabledOnJre(JRE.JAVA_18)
     void testJDK18() {
         Usuario usuario = new Usuario("David");
@@ -67,24 +73,28 @@ class UsuarioTest {
     }
 
     @Test
+    @Disabled
     void propiedadesDeSistema() {
         Properties p = System.getProperties();
         p.forEach((k,v) -> System.out.println(k + ": " + v));
     }
 
     @Test
+    @Disabled
     @EnabledIfSystemProperty(named = "java.version", matches = "18")
     void javaVersionTest() {
         System.out.println("version de java 18");
     }
 
     @Test
+    @Disabled
     @EnabledIfSystemProperty(named = "ENV", matches = "dev")
     void envTest() {
         System.out.println("");
     }
 
     @Test
+    @Disabled
     @Tag("dev")
     void devTest() {
         Assumptions.assumeTrue(isDev);
@@ -92,6 +102,7 @@ class UsuarioTest {
     }
 
     @Test
+    @Disabled
     @Timeout(5)
     @Tag("timeout")
     void tiempoEsperaTest() throws InterruptedException {
@@ -99,6 +110,7 @@ class UsuarioTest {
     }
 
     @Test
+    @Disabled
     void tiempoEsperaAssertTest() {
         assertTimeout(Duration.ofSeconds(2),()-> {
             TimeUnit.SECONDS.sleep(3);

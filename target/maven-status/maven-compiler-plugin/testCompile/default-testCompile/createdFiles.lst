@@ -1,0 +1,4 @@
+com\lime\mockito\services\DataSource.class
+com\lime\junit5\entity\UsuarioTest.class
+com\lime\mockito\services\ExamenServiceImplTest.class
+com\lime\junit5\entity\CuentaTest.class
