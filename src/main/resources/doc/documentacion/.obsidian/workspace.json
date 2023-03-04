@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/37. Protocolo HTTP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b558bf2ea3f594e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "java/40. HttpServlet.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,11 +155,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b558bf2ea3f594e",
+  "active": "a6e02c529215623b",
   "lastOpenFiles": [
-    "java/37. Protocolo HTTP.md",
+    "uml",
     "java/39. Servlet.md",
+    "java/41. Cookies.md",
     "java/40. HttpServlet.md",
+    "java/37. Protocolo HTTP.md",
     "java/0.2 JRE y JVM.md",
     "java/7. Arrays o Arreglos.md",
     "java/13. Clases Absrtactas.md",
@@ -197,8 +186,6 @@
     "guia/canvas.md",
     "java/34. JDBC Transacciones.md",
     "java/33. Pool de Conexiones.md",
-    "java/31. Maven.md",
-    "java/32. Base de Datos con JDBC.md",
     "guia/30. patrones.canvas",
     "guia/Untitled",
     "static/images",

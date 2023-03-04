@@ -28,6 +28,7 @@ com\lime\hilos\sync\runnable\Panadero.class
 com\lime\hilos\timer\AgendaTareaTimerPeriod.class
 com\lime\patrones\factory\zone\PizzeriaNYF.class
 com\lime\poo\interfaces\dao\Direccion.class
+com\lime\jakarta\web\forms\controller\FormController.class
 com\lime\hilos\runnable\EjemploIRunnable.class
 com\lime\patrones\factory\PizzaProducto.class
 com\lime\poo\abstracta\Figura.class
