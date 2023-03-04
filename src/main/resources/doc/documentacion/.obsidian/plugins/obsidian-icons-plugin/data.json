@@ -1,7 +1,7 @@
 {
   "enableRis": true,
-  "enableRir": false,
-  "enableFas": false,
+  "enableRir": true,
+  "enableFas": true,
   "enableFar": true,
   "aliasMapping": ""
 }
