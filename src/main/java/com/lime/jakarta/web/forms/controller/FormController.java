@@ -8,9 +8,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 @WebServlet("/form")
 public class FormController extends HttpServlet {
@@ -35,26 +33,26 @@ public class FormController extends HttpServlet {
         String idioma = req.getParameter("idioma");
         String habilitar = req.getParameter("habilitar");
         String secreto = req.getParameter("secreto");
-        List<String> errores = new ArrayList<>();
+        Map<String, String> errores = new HashMap<>();
 
         if (username == null || username.isBlank()) {
-            errores.add("El usuario no puede ser vacio");
+            errores.put("username","El usuario no puede ser vacio");
         }
 
         if (password == null || password.isBlank()) {
-            errores.add("El password no puede ser vacio");
+            errores.put("password","El password no puede ser vacio");
         }
 
         if (email == null || email.isBlank()) {
-            errores.add("El email no puede ser vacio");
+            errores.put("email","El email no puede ser vacio");
         }
 
         if (pais == null || pais.isBlank()) {
-            errores.add("El pais no puede ser vacio");
+            errores.put("pais","El pais no puede ser vacio");
         }
 
         if (lenguajes == null || lenguajes.length == 0) {
-            errores.add("Seleccione un lenguaje");
+            errores.put("lenguaje","Seleccione un lenguaje");
         }
 
         out.println("<!doctype html>");

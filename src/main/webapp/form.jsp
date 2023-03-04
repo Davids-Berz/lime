@@ -1,7 +1,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import="java.util.List" %>
+<%@page import="java.util.Map" %>
 <%
-List<String> errores = (List<String>)request.getAttribute("errores");
+Map<String,String> errores = (Map<String,String>)request.getAttribute("errores");
 %>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,24 +11,29 @@ List<String> errores = (List<String>)request.getAttribute("errores");
   </head>
   <body>
     <h3>Formulario</h3>
+    <%-- Comment --%>
+
     <%
     if (errores != null && errores.size()>0) {
-  %>
+    %>
 
   <ul>
-  <% for(String error: errores) {%>
+  <% for(String error: errores.values()) {%>
 <li><%=error%></li>
-<%}%>
-  </ul>
+    <%}%>
+    </ul>
+    <%}%>
+<%-- Comment --%>
 
-
-<%
-    }
-%>
     <form action="/lime/form" method="post">
       <div>
         <label for="username">Nombre</label>
         <div><input type="text" name="username" id="username" /></div>
+        <%
+        if(errores != null && errores.containsKey("username")) {
+            out.println("<div style='color:red'>"+errores.get("username")+"</div>");
+        }
+        %>
       </div>
 
       <div>
