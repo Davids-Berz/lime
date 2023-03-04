@@ -4,15 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f73398124ae6a594",
+        "id": "25bca7bf98cbd0c0",
         "type": "tabs",
         "children": [
           {
-            "id": "f8253ab9ac64fc6c",
+            "id": "a46ec10f63231d4a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "uml/uml.canvas",
+                "viewState": {
+                  "x": 2136.299793797572,
+                  "y": -883.2216559272094,
+                  "zoom": -1.3333333333333333
+                }
+              }
             }
           }
         ]
@@ -65,7 +72,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "513ac2ce8bf4d0b4",
@@ -81,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "uml/uml.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "uml/uml.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +128,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "uml/uml.canvas"
+              }
             }
           },
           {
@@ -148,8 +160,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f8253ab9ac64fc6c",
+  "active": "a46ec10f63231d4a",
   "lastOpenFiles": [
+    "uml/1.0. Asociación.md",
+    "uml/uml.canvas",
     "uml/5. Dependencia.md",
     "uml/7. Colores.md",
     "java/41. Cookies.md",
@@ -157,8 +171,6 @@
     "uml/6. Realizacion.md",
     "uml/1.2.1 Multiplicidad.md",
     "uml/1.2. Composición.md",
-    "uml/uml.canvas",
-    "uml/1.0. Asociación.md",
     "uml/1.1. Agregación.md",
     "uml/4. Herencia  o Generalizacion.md",
     "uml/generalizacion.png",

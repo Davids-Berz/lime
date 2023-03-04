@@ -8,13 +8,16 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 @WebServlet("/form")
 public class FormController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.sendRedirect("/form.html");
+        resp.sendRedirect("/form.jsp");
 //        req.getRequestDispatcher("form.jsp").forward(req,resp);
     }
 
@@ -26,7 +29,33 @@ public class FormController extends HttpServlet {
         String username = req.getParameter("username");
         String password = req.getParameter("password");
         String email = req.getParameter("email");
+        String pais = req.getParameter("pais");
+        String[] lenguajes = req.getParameterValues("lenguaje");
+        String[] roles = req.getParameterValues("roles");
+        String idioma = req.getParameter("idioma");
+        String habilitar = req.getParameter("habilitar");
+        String secreto = req.getParameter("secreto");
+        List<String> errores = new ArrayList<>();
 
+        if (username == null || username.isBlank()) {
+            errores.add("El usuario no puede ser vacio");
+        }
+
+        if (password == null || password.isBlank()) {
+            errores.add("El password no puede ser vacio");
+        }
+
+        if (email == null || email.isBlank()) {
+            errores.add("El email no puede ser vacio");
+        }
+
+        if (pais == null || pais.isBlank()) {
+            errores.add("El pais no puede ser vacio");
+        }
+
+        if (lenguajes == null || lenguajes.length == 0) {
+            errores.add("Seleccione un lenguaje");
+        }
 
         out.println("<!doctype html>");
         out.println("<html>");
@@ -36,13 +65,34 @@ public class FormController extends HttpServlet {
         out.println("   <body>");
         out.println("       <h1>Resultado Form</h1>");
         out.println("       <ul>");
-        out.println("           <li>username: "+username+"</li>");
-        out.println("           <li>password: "+password+"</li>");
-        out.println("           <li>password: "+email+"</li>");
+
+        if (errores.size() == 0) {
+            out.println("           <li>username: "+username+"</li>");
+            out.println("");
+            out.println("           <li>password: "+password+"</li>");
+            out.println("           <li>password: "+email+"</li>");
+            out.println("           <li>pais: "+pais+"</li>");
+            out.println("           <li>Lenguajes: <ul>");
+            Arrays.asList(lenguajes).forEach( l -> out.println("<li>"+l+"</li>"));
+            out.println("           </ul></li>");
+            out.println("           <li>Roles: <ul>");
+            Arrays.asList(roles).forEach( r -> out.println("<li>"+r+"</li>"));
+            out.println("           </ul></li>");
+            out.println("           <li>idioma: "+idioma+"</li>");
+            out.println("           <li>habilitar: "+habilitar+"</li>");
+            out.println("           <li>secreto: "+secreto+"</li>");
         out.println("       </ul>");
         out.println("       ");
         out.println("   </body>");
         out.println("</html>");
+        out.println("<p><a href=\"/lime/index.html\">regresar </p>");
+        } else {
+//            errores.forEach(e -> out.println("<li>"+e+"</li>"));
+//            System.out.println("entra");
+//            out.println("<p><a href=\"/lime/index.html\"> </p>");
+            req.setAttribute("errores", errores);
+            getServletContext().getRequestDispatcher("/form.jsp").forward(req,resp);
+        }
         out.close();
     }
 }
