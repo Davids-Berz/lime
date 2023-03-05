@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/44. Filter Http.md",
+                "file": "java/35. Junit.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95e00bc9f9574b0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "java/45. JSTL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/44. Filter Http.md",
+                "file": "java/45. JSTL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/44. Filter Http.md",
+                "file": "java/45. JSTL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/44. Filter Http.md"
+                "file": "java/45. JSTL.md"
               }
             }
           },
@@ -156,12 +169,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0d6734b0a9cd7f4c",
+  "active": "95e00bc9f9574b0a",
   "lastOpenFiles": [
+    "java/35. Junit.md",
+    "java/45. JSTL.md",
+    "java/44. Filter Http.md",
     "java/43. Servlet Listener.md",
     "java/42. HttpSession.md",
     "uml/uml.canvas",
-    "java/44. Filter Http.md",
     "java/41. Cookies.md",
     "java/39. Servlet.md",
     "java/40. HttpServlet.md",
@@ -187,7 +202,6 @@
     "java/0 Java desde cero.md",
     "java/38. EJB.md",
     "java/1. Tipo de Datos.md",
-    "java/5. Estructuras de control de flujo.md",
     "guia/Untitled.canvas",
     "Day Planners",
     "Untitled.canvas",
