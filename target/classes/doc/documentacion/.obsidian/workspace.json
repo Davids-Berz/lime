@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "012044ffaa7b952c",
+        "id": "1dc2710d9e29761e",
         "type": "tabs",
         "children": [
           {
-            "id": "94ab5c2ff98ff447",
+            "id": "bc1d1c040a4da861",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/46. CDI - Context Dependency Injection.md",
+                "file": "java/0 Java desde cero.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ae2002ecad532f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "java/52. JAX-WS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/46. CDI - Context Dependency Injection.md",
+                "file": "java/52. JAX-WS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/46. CDI - Context Dependency Injection.md",
+                "file": "java/52. JAX-WS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/46. CDI - Context Dependency Injection.md"
+                "file": "java/52. JAX-WS.md"
               }
             }
           },
@@ -156,14 +169,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "94ab5c2ff98ff447",
+  "active": "5ae2002ecad532f7",
   "lastOpenFiles": [
-    "java/46. CDI - Context Dependency Injection.md",
+    "java/0 Java desde cero.md",
+    "java/52. JAX-WS.md",
+    "java/51. Api Criteria.md",
+    "java/50. JPQL.md",
+    "java/49. HQL.md",
+    "java/48. JPA.md",
     "java/38. EJB.md",
+    "java/47. HIBERNATE.md",
+    "java/46. CDI - Context Dependency Injection.md",
     "java/1. Tipo de Datos.md",
     "java/0.2 JRE y JVM.md",
     "java/0.1 Conceptos de Programacion.md",
-    "java/0 Java desde cero.md",
     "java/2. Variables.md",
     "java/3. Operadores.md",
     "java/4. String.md",
@@ -179,14 +198,8 @@
     "uml/1.0. Asociación.md",
     "uml/5. Dependencia.md",
     "uml/7. Colores.md",
-    "uml/6. Realizacion.md",
-    "uml/1.2.1 Multiplicidad.md",
-    "uml/1.2. Composición.md",
-    "uml/1.1. Agregación.md",
-    "uml/4. Herencia  o Generalizacion.md",
     "uml/generalizacion.png",
     "uml/generalizacion.png.~tmp",
-    "uml/0. Diagrama de Clases.md",
     "uml",
     "uml",
     "guia/Untitled.canvas",
