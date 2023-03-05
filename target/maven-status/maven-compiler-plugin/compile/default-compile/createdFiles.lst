@@ -1,6 +1,7 @@
 com\lime\jdbc\entity\Categoria.class
 com\lime\poo\interfaces\dao\Main.class
 com\lime\mockito\services\IExamenService.class
+com\lime\jakarta\web\listener\AppListener.class
 com\lime\jdbc\pool\repositorio\PoolProductoRepositorioImpl.class
 com\lime\jdbc\pool\Main.class
 com\lime\poo\herencia\Alumno.class

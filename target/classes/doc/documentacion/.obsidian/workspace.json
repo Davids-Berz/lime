@@ -4,21 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "25bca7bf98cbd0c0",
+        "id": "5e74303b2054ba55",
         "type": "tabs",
         "children": [
           {
-            "id": "a46ec10f63231d4a",
+            "id": "0d6734b0a9cd7f4c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "uml/uml.canvas",
-                "viewState": {
-                  "x": 2136.299793797572,
-                  "y": -883.2216559272094,
-                  "zoom": -1.3333333333333333
-                }
+                "file": "java/44. Filter Http.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -72,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "513ac2ce8bf4d0b4",
@@ -89,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "uml/uml.canvas",
+                "file": "java/44. Filter Http.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "uml/uml.canvas",
+                "file": "java/44. Filter Http.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -129,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "uml/uml.canvas"
+                "file": "java/44. Filter Http.md"
               }
             }
           },
@@ -160,14 +156,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a46ec10f63231d4a",
+  "active": "0d6734b0a9cd7f4c",
   "lastOpenFiles": [
-    "uml/1.0. Asociación.md",
+    "java/43. Servlet Listener.md",
+    "java/42. HttpSession.md",
     "uml/uml.canvas",
+    "java/44. Filter Http.md",
+    "java/41. Cookies.md",
+    "java/39. Servlet.md",
+    "java/40. HttpServlet.md",
+    "uml/1.0. Asociación.md",
     "uml/5. Dependencia.md",
     "uml/7. Colores.md",
-    "java/41. Cookies.md",
-    "java/40. HttpServlet.md",
     "uml/6. Realizacion.md",
     "uml/1.2.1 Multiplicidad.md",
     "uml/1.2. Composición.md",
@@ -178,7 +178,6 @@
     "uml/0. Diagrama de Clases.md",
     "uml",
     "uml",
-    "java/39. Servlet.md",
     "java/37. Protocolo HTTP.md",
     "java/0.2 JRE y JVM.md",
     "java/7. Arrays o Arreglos.md",
@@ -189,9 +188,6 @@
     "java/38. EJB.md",
     "java/1. Tipo de Datos.md",
     "java/5. Estructuras de control de flujo.md",
-    "java/17. Excepciones.md",
-    "java/2. Variables.md",
-    "java/36. Mockito.md",
     "guia/Untitled.canvas",
     "Day Planners",
     "Untitled.canvas",
