@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.lime.junit5.entity.CuentaTest" time="0.034" tests="7" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.lime.junit5.entity.CuentaTest" time="0.031" tests="7" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="MX"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\David\AppData\Local\Temp\surefire8618890465210747672\surefirebooter5980429263942843954.jar C:\Users\David\AppData\Local\Temp\surefire8618890465210747672 2023-03-05T04-07-56_346-jvmRun1 surefire7877170433965995069tmp surefire_03835651598497038887tmp"/>
+    <property name="sun.java.command" value="C:\Users\David\AppData\Local\Temp\surefire13952413166121705766\surefirebooter2574190940666901075.jar C:\Users\David\AppData\Local\Temp\surefire13952413166121705766 2023-03-05T05-09-22_830-jvmRun1 surefire3407373894866364942tmp surefire_05714905072892940742tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\Repositorios\lime\target\test-classes;E:\Repositorios\lime\target\classes;C:\Users\David\.m2\repository\mysql\mysql-connector-java\8.0.27\mysql-connector-java-8.0.27.jar;C:\Users\David\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\David\.m2\repository\org\apache\commons\commons-dbcp2\2.9.0\commons-dbcp2-2.9.0.jar;C:\Users\David\.m2\repository\org\apache\commons\commons-pool2\2.10.0\commons-pool2-2.10.0.jar;C:\Users\David\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\David\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\David\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\David\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\David\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\David\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\David\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\David\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\David\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\David\.m2\repository\org\mockito\mockito-core\5.1.1\mockito-core-5.1.1.jar;C:\Users\David\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\David\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.22\byte-buddy-agent-1.12.22.jar;C:\Users\David\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\David\.m2\repository\org\mockito\mockito-junit-jupiter\4.6.1\mockito-junit-jupiter-4.6.1.jar;C:\Users\David\.m2\repository\jakarta\platform\jakarta.jakartaee-api\9.1.0\jakarta.jakartaee-api-9.1.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\David\AppData\Local\Temp\surefire8618890465210747672\surefirebooter5980429263942843954.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\David\AppData\Local\Temp\surefire13952413166121705766\surefirebooter2574190940666901075.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.5+8"/>
@@ -60,8 +60,8 @@
   </properties>
   <testcase name="DineroInsuficienteExceptionTest" classname="com.lime.junit5.entity.CuentaTest" time="0.011"/>
   <testcase name="CuentaCreditoTest" classname="com.lime.junit5.entity.CuentaTest" time="0.001"/>
-  <testcase name="SaldoCuentaTest" classname="com.lime.junit5.entity.CuentaTest" time="0"/>
-  <testcase name="CuentaTest" classname="com.lime.junit5.entity.CuentaTest" time="0"/>
+  <testcase name="SaldoCuentaTest" classname="com.lime.junit5.entity.CuentaTest" time="0.001"/>
+  <testcase name="CuentaTest" classname="com.lime.junit5.entity.CuentaTest" time="0.001"/>
   <testcase name="CuentaDebitoTest" classname="com.lime.junit5.entity.CuentaTest" time="0"/>
   <testcase name="TransferirTest" classname="com.lime.junit5.entity.CuentaTest" time="0.003"/>
   <testcase name="testNombreCuenta" classname="com.lime.junit5.entity.CuentaTest" time="0">

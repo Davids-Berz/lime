@@ -15,7 +15,7 @@ public class FormController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.sendRedirect("/form.jsp");
+//        resp.sendRedirect("/form.jsp");
 //        req.getRequestDispatcher("form.jsp").forward(req,resp);
     }
 

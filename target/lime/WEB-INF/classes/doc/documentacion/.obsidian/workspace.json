@@ -8,46 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d7d50a0c822b1158",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "java/42. HttpSession.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0d6734b0a9cd7f4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/43. Listener.md",
+                "file": "java/44. Filter Http.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "efa691975be3b2b2",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "uml/uml.canvas",
-                "viewState": {
-                  "x": -315.79090715683344,
-                  "y": -1614.3506471966127,
-                  "zoom": -1.1102230246251565e-16
-                }
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/43. Listener.md",
+                "file": "java/44. Filter Http.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/43. Listener.md",
+                "file": "java/44. Filter Http.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/43. Listener.md"
+                "file": "java/44. Filter Http.md"
               }
             }
           },
@@ -186,10 +158,11 @@
   },
   "active": "0d6734b0a9cd7f4c",
   "lastOpenFiles": [
+    "java/43. Servlet Listener.md",
     "java/42. HttpSession.md",
-    "java/43. Listener.md",
-    "java/41. Cookies.md",
     "uml/uml.canvas",
+    "java/44. Filter Http.md",
+    "java/41. Cookies.md",
     "java/39. Servlet.md",
     "java/40. HttpServlet.md",
     "uml/1.0. Asociación.md",
@@ -215,8 +188,6 @@
     "java/38. EJB.md",
     "java/1. Tipo de Datos.md",
     "java/5. Estructuras de control de flujo.md",
-    "java/17. Excepciones.md",
-    "java/2. Variables.md",
     "guia/Untitled.canvas",
     "Day Planners",
     "Untitled.canvas",
