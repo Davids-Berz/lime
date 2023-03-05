@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/45. JSTL.md",
+                "file": "java/46. CDI - Context Dependency Injection.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/45. JSTL.md",
+                "file": "java/46. CDI - Context Dependency Injection.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/45. JSTL.md",
+                "file": "java/46. CDI - Context Dependency Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/45. JSTL.md"
+                "file": "java/46. CDI - Context Dependency Injection.md"
               }
             }
           },
@@ -159,8 +159,16 @@
   "active": "94ab5c2ff98ff447",
   "lastOpenFiles": [
     "java/46. CDI - Context Dependency Injection.md",
-    "java/35. Junit.md",
+    "java/38. EJB.md",
+    "java/1. Tipo de Datos.md",
+    "java/0.2 JRE y JVM.md",
+    "java/0.1 Conceptos de Programacion.md",
+    "java/0 Java desde cero.md",
+    "java/2. Variables.md",
+    "java/3. Operadores.md",
+    "java/4. String.md",
     "java/45. JSTL.md",
+    "java/35. Junit.md",
     "java/44. Filter Http.md",
     "java/43. Servlet Listener.md",
     "java/42. HttpSession.md",
@@ -181,14 +189,6 @@
     "uml/0. Diagrama de Clases.md",
     "uml",
     "uml",
-    "java/37. Protocolo HTTP.md",
-    "java/0.2 JRE y JVM.md",
-    "java/7. Arrays o Arreglos.md",
-    "java/13. Clases Absrtactas.md",
-    "java/12. Encapsulamiento.md",
-    "java/0.1 Conceptos de Programacion.md",
-    "java/0 Java desde cero.md",
-    "java/38. EJB.md",
     "guia/Untitled.canvas",
     "Day Planners",
     "Untitled.canvas",
